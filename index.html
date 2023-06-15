@@ -19,7 +19,7 @@ body,h2,h3,h4,h5,h6 {font-family: "Times New Roman", Times, serif;}
 body, html {
   height: 100%;
   color: black;
-  line-height: 1.8;
+  line-height: 1.6;
 }
 
 h1 {
@@ -54,7 +54,7 @@ h1 {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+.bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -104,13 +104,14 @@ h1 {
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  background-color: black;
 }
 
 /* Links inside the navbar */
 .navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: floralwhite;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -118,8 +119,7 @@ h1 {
 
 /* Change background on mouse-over */
 .navbar a:hover {
-  background: #ddd;
-  color: black;
+  color: #ddd;
 }
 
 /* Main content */
@@ -136,15 +136,6 @@ a:active { text-decoration: none; }
 ul { list-style-type: none;}
 
 .fullheight{ height: 100%;}
-
-.hrblack {
-  color: black;
-  background: black;
-  background-color: black;
-}
-
-/* CSS FOR CAROUSEL TEXT */
-
 
 </style>
 </head>
@@ -506,10 +497,10 @@ ul { list-style-type: none;}
 		      </li>
 		      <li class="form-line" data-type="control_button" id="id_2">
 			    <div id="cid_2" class="form-input-wide">
-			      <div data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField"><button id="input_2" type="submit" class="form-submit-button form-submit-button-none submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">SUBMIT</button></div>
+			      <div data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField"><button id="input_2" type="submit" class="w3-button w3-black jf-form-buttons jsTest-submitField" data-component="button" data-content="">SUBMIT</button></div>
 			    </div>
 		      </li>
-		      <li style="display:none">Should be Empty: <input type="text" name="website" value="" /></li>
+		      
 		    </ul>
 		  </div>
 	    </form>
